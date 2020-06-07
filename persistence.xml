@@ -1,0 +1,15 @@
+<?XML version="1.0" encoding="UTF-8"?>
+<persistence version="5.3.5"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/xmlschema-instance"
+	sxi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<persistence-unit name="student-info">
+<class></class>
+<properties javax.persistence.jdbc.Driver>com.mysql.jdbc.Driver</properties>
+<property javax.persistence.jdbc.url>jdbc:mysql/localhost:3306/stu</property>
+<property javax.persistence.jdbc.user>root</property>
+<property javax.persistence.jdbc.password>root</property>
+</persistence-unit>	
+	
+	
+</persistence>
